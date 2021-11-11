@@ -1,9 +1,44 @@
 # Egene notater
 
 # Varianse 
-## Notasjon
->Varians bruker notasjonen: **s<sup>2</sup>** 
+Varians er et mål på hvor mye en S.V vil variere om man gjentar forsøket uendelig mange ganger. Variansen er også knyttet til forventningsverdien.
 
+## Notasjon
+> Varians bruker notasjonen: 
+>* **s<sup>2</sup>** 
+>* **Var[X]**
+>* **σ<sup>2</sup>**
+
+## Definisjon
+>
+> Var[X] = E [( X<sup>2</sup>- μ )<sup>2</sup>]
+> 
+> **Diskre:**
+> 
+> ![Varians](../../../../../var/folders/xg/9qgl3jxn7tsc9hnr64c8msn40000gn/T/TemporaryItems/NSIRD_screencaptureui_bnOk6r/Screenshot 2021-11-11 at 20.22.23.png)
+>
+> **Kontinuelig:**
+> 
+> ![Varians](../../../../../var/folders/xg/9qgl3jxn7tsc9hnr64c8msn40000gn/T/TemporaryItems/NSIRD_screencaptureui_yNUv09/Screenshot 2021-11-11 at 20.23.01.png)
+>     
+> Alternativt (for både diskre og kontinuelig):
+> 
+> σ<sup>2</sup> = E [ X <sup>2</sup>] - μ <sup>2</sup>
+
+
+Merk, varians kan aldri være negativ.
+
+# Forventningsverdi (Mean)
+Man kan tenkte på forventningsverdi til en S.V som gjennomsnittlig verdi variablen får når man gjentar forsøket uendelig mange ganger. 
+
+
+## Notasjon
+> Forventningsverdi bruker notasjoenne: **E(X) = μ**
+
+### Forventningsverdi for diskre og kontinuelig 
+![forventningsverdi](../../../../../var/folders/xg/9qgl3jxn7tsc9hnr64c8msn40000gn/T/TemporaryItems/NSIRD_screencaptureui_LzXJ8X/Screenshot 2021-11-11 at 19.43.59.png)
+
+Merk at f(x) for diskre S.V er punktsannsynligheten, og med kontinuelig er f(x) sannsynlighetstettheten.
 
 # Standardavvik (Standard deviation)
 Standardavvik er den positive roten av variansen.
@@ -104,6 +139,7 @@ Ekvavilent for kontinuelig S.V er *sannsynlighetstetthet*
 >2. Σ <sub>x</sub> f(x) = 1
 >3. P(X=x) = f(x)
 
+>![Punktsannsynlighet](../../../../../var/folders/xg/9qgl3jxn7tsc9hnr64c8msn40000gn/T/TemporaryItems/NSIRD_screencaptureui_Yo8m8J/Screenshot 2021-11-11 at 18.54.08.png)
 ##Kontinuelig sannsynlighetsfordeling
 Når en S.V kan ta alle verdier i et intervall på tallinjen, eller alle verider på hele tallinjen. 
 
@@ -131,7 +167,7 @@ F(x) er en sannsynlighet, og må dermed alltid være mellom 0 og 1.
 > F(x) = P(X ≤ x) = Σ<sub>t ≤ x</sub> f(t)
 
 ### Kumulativ for kontinuelig
-
+>![](../../../../../var/folders/xg/9qgl3jxn7tsc9hnr64c8msn40000gn/T/TemporaryItems/NSIRD_screencaptureui_A1SslD/Screenshot 2021-11-11 at 19.36.14.png)
 
 
 
